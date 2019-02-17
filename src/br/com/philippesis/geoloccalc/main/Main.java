@@ -18,7 +18,7 @@ public class Main {
 
         // Formatação saída
         DecimalFormat df = new DecimalFormat("###,##0.0000");
-        // Aredonda para cima
+        // Arredonda para cima
         df.setRoundingMode(RoundingMode.UP);
         // Imprime formatando
         System.out.println(df.format((calcDistancia(latitudeInicial, longitudeInicial, latitudeFinal,
